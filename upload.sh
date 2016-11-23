@@ -5,4 +5,4 @@ docker run --rm \
   -v $PWD:/app xueshanf/awscli \
     aws s3api put-bucket-website \
     --bucket pazthe.ninja \
-    --website-configuration file://website.json
+    --website-configuration file://$PWD/website.json
