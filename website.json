@@ -5,13 +5,13 @@
   "RoutingRules": [
     {
       "Condition": {
-        "KeyPrefixEquals": "test4/"
+        "KeyPrefixEquals": "/docs"
       },
       "Redirect": {
-        "HostName": "example.com",
+        "HostName": "github.move.com",
         "HttpRedirectCode": "307",
         "Protocol": "https",
-        "ReplaceKeyWith": "far"
+        "ReplaceKeyPrefixWith": "/ProSoft/controllo/tree/gh-pages/docs"
       }
     }
   ]
