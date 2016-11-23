@@ -23,4 +23,4 @@ function addhttpsredirect(prefix, hostname, path) {
 
 addhttpsredirect('docs', 'github.move.com', '/ProSoft/controllo/tree/gh-pages/docs');
 
-fs.writeFileSync('website.json', JSON.stringify(model, null, 4));
+console.log(JSON.stringify(model, null, 2));
