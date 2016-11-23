@@ -2,7 +2,7 @@ sudo: required
 services:
   - docker
 language: bash
-install: mak
+install: make
 skip_cleanup: true
 on:
   repo: alexjpaz/pazthe.ninja
