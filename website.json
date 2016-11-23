@@ -1,5 +1,8 @@
 {
-"RoutingRules": [
+  "IndexDocument": {
+    "Suffix": "index.html"
+  },
+  "RoutingRules": [
     {
       "Condition": {
         "KeyPrefixEquals": "test4/"
