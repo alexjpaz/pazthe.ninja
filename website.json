@@ -5,7 +5,7 @@
   "RoutingRules": [
     {
       "Condition": {
-        "KeyPrefixEquals": "/docs"
+        "KeyPrefixEquals": "docs"
       },
       "Redirect": {
         "HostName": "github.move.com",
