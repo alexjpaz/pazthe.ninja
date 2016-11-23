@@ -1,0 +1,15 @@
+{
+"RoutingRules": [
+    {
+      "Condition": {
+        "KeyPrefixEquals": "test4/"
+      },
+      "Redirect": {
+        "HostName": "example.com",
+        "HttpRedirectCode": "307",
+        "Protocol": "https",
+        "ReplaceKeyWith": "far"
+      }
+    }
+  ]
+}

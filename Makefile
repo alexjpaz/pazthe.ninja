@@ -1,2 +1,2 @@
 default:
-  docker ps
+	./upload.sh
