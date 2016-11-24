@@ -21,6 +21,6 @@ function addhttpsredirect(prefix, hostname, path) {
   });
 }
 
-addhttpsredirect('docs', 'github.move.com', '/ProSoft/controllo/tree/gh-pages/docs');
+addhttpsredirect('docs', 'github.move.com', 'ProSoft/controllo/tree/gh-pages/docs');
 
 console.log(JSON.stringify(model, null, 2));
